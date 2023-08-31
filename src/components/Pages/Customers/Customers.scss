@@ -1,0 +1,129 @@
+.comment {
+  &_top {
+    margin-top: 100px;
+    width: 1000px !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    & .mySwiper {
+      width: 100%;
+      justify-content: center !important;
+    }
+  }
+
+  &_slider {
+    background: rgba(0, 0, 0, 0);
+    width: 100% !important;
+    height: 450px !important;
+    // margin-right: 10px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_slider_bg {
+    box-shadow: inset 0px 0px 10px 3px #fff;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px 101px;
+
+
+  }
+
+  &_slider_elip {
+    width: 130px;
+    height: 130px;
+    box-shadow: inset 0px 0px 10px 3px #fff;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &_slider_icons {
+    font-size: 70px;
+    color: #fff;
+  }
+
+  &_slider_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+
+  &_slider_star-wars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 225px;
+    margin-top: 40px;
+  }
+
+  &_slider_star {
+    font-size: 25px;
+    color: #fff;
+    transform: rotateY(90deg);
+    transition: 0.8s;
+    
+    &.active{
+        transform: rotateX(0deg);
+    }
+  }
+
+  &_slider_logo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  color: #fff !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  color: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FFF !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #C4C4C4 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    bottom: 0px;
+}

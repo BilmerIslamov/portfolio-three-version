@@ -1,0 +1,83 @@
+.info {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: +999;
+
+  &_alert {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_alert_1 {
+    top: -48.2px;
+    opacity: 0;
+    transition: 0.4s !important;
+    background: #160B0B !important;
+    background: #1A1A1A !important;
+    color: #ff0000!important;
+
+    &.active {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  &_alert_2 {
+    top: -48.2px;
+    opacity: 0;
+    transition: 0.4s !important;
+    background: #071318 !important;
+    background: #1A1A1A !important;
+    color: #00d4ff !important;
+
+    &.active {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  &_alert_3 {
+    top: -48.2px;
+    opacity: 0;
+    transition: 0.4s !important;
+    background: #0C130D !important;
+    background: #1A1A1A !important;
+    color: #00ff15 !important;
+
+    &.active {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  &_alert_4{
+    top: -48.2px;
+    opacity: 0;
+    transition: 0.4s !important;
+    background: #0C130D !important;
+    background: #1A1A1A !important;
+    color: #00ff15 !important;
+    
+    &.active {
+        top: 0;
+        opacity: 1;
+      }
+  }
+
+}
+.css-1hdyuqk-MuiPaper-root-MuiAlert-root .MuiAlert-icon{
+  color: #ff0000 !important;
+}
+.css-1fuz9qr-MuiPaper-root-MuiAlert-root .MuiAlert-icon {
+  color: #00d4ff !important;
+}
+.css-wnkddu-MuiPaper-root-MuiAlert-root .MuiAlert-icon {
+  color: #00ff15 !important;
+}
